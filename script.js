@@ -5,7 +5,7 @@ document.getElementById('openBoxButton').addEventListener('click', function () {
         document.getElementById('box').style.display = 'none';
         document.getElementById('omnitrixContainer').style.display = 'block';
     } else {
-        alert('Incorrect day! Try again.');
+        alert('Incorrect day!so you dont love me la. Try again.');
     }
 });
 
