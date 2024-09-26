@@ -1,6 +1,6 @@
 document.getElementById('openBoxButton').addEventListener('click', function () {
     const dayInput = document.getElementById('dayInput').value.toLowerCase();
-    if (dayInput === 'saturday'& dayInput === 'Saturday') {
+    if (dayInput === 'saturday' && dayInput === 'Saturday' && dayInput === 'saturday ' && dayInput === 'Saturday ') {
         // Open the advanced box
         document.getElementById('box').style.display = 'none';
         document.getElementById('omnitrixContainer').style.display = 'block';
