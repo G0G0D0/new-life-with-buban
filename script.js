@@ -1,13 +1,25 @@
 document.getElementById('openBoxButton').addEventListener('click', function () {
-    const dayInput = document.getElementById('dayInput').value.toLowerCase();
-    if (dayInput === 'saturday' && dayInput === 'Saturday' && dayInput === 'saturday ' && dayInput === 'Saturday ') {
+    let dayInput = document.getElementById('dayInput').value.toLowerCase().trim(); // Trim extra spaces
+    if (dayInput === 'saturday') {
         // Open the advanced box
         document.getElementById('box').style.display = 'none';
         document.getElementById('omnitrixContainer').style.display = 'block';
     } else {
-        alert('Incorrect day!so you dont love me la. Try again.');
+        alert('Incorrect day! Try again.');
     }
 });
+
+
+// document.getElementById('openBoxButton').addEventListener('click', function () {
+//     const dayInput = document.getElementById('dayInput').value.toLowerCase();
+//     if (dayInput === 'saturday' && dayInput === 'Saturday' && dayInput === 'saturday ' && dayInput === 'Saturday ') {
+//         // Open the advanced box
+//         document.getElementById('box').style.display = 'none';
+//         document.getElementById('omnitrixContainer').style.display = 'block';
+//     } else {
+//         alert('Incorrect day!so you dont love me la. Try again.');
+//     }
+// });
 
 // First Click: Show Heart Symbol (like Omnitrix transformation)
 document.getElementById('omnitrixIcon').addEventListener('click', function () {
