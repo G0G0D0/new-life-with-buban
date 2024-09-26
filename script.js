@@ -1,11 +1,12 @@
 document.getElementById('openBoxButton').addEventListener('click', function () {
+
     let dayInput = document.getElementById('dayInput').value.toLowerCase().trim(); // Trim extra spaces
     if (dayInput === 'saturday') {
         // Open the advanced box
         document.getElementById('box').style.display = 'none';
         document.getElementById('omnitrixContainer').style.display = 'block';
     } else {
-        alert('Incorrect day! Try again.');
+        alert('Incorrect day!so you dont love me ah that much Try again.');
     }
 });
 
