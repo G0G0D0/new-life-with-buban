@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnitrix Apology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- High-tech, advanced box with input -->
+    <div id="box" class="box-closed">
+        <h2>Enter the day we started dating to open the box:</h2>
+        <input type="text" id="dayInput" placeholder="Enter the day">
+        <button id="openBoxButton">Submit</button>
+    </div>
+
+    <!-- Omnitrix -->
+    <div id="omnitrixContainer" class="omnitrix-container-hidden">
+        <div class="omnitrix-symbol">
+            <div class="outer-ring"></div>
+            <div class="omnitrix-center" id="omnitrixIcon">
+                <div class="omnitrix-icon">
+                    <div class="inner-icon"></div>
+                </div>
+            </div>
+            <div id="heartIcon" class="heart-hidden">❤️</div>
+        </div>
+    </div>
+
+    <!-- Flash Effect for transformation -->
+    <div id="flashEffect" class="flash-hidden"></div>
+
+    <!-- Timeout & Letter -->
+    <div id="letterContainer" class="letter-hidden">
+        <pre id="letter" class="matrix-letter"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
